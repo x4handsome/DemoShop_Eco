@@ -41,7 +41,7 @@
                 <div class="col-lg-2 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">                  
-                        <h5 style="float: left">Demo E-Shop👓</h5>
+                        <h5 style="float: left">DemoShop<br>Nha Trang👓</h5>
 
                     </div>
                     <!--/ End Logo -->

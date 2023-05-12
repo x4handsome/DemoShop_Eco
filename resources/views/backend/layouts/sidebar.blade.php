@@ -34,7 +34,7 @@
             <span>Media Manager</span></a>
     </li> -->
 
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         <i class="fas fa-image"></i>
         <span>Banners</span>
@@ -46,7 +46,7 @@
           <a class="collapse-item" href="{{route('banner.create')}}">Thêm Banners</a>
         </div>
       </div>
-    </li>
+    </li> -->
     <!-- Divider -->
     <hr class="sidebar-divider">
         <!-- Heading -->
@@ -58,7 +58,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#categoryCollapse" aria-expanded="true" aria-controls="categoryCollapse">
           <i class="fas fa-sitemap"></i>
-          <span>Category</span>
+          <span>Danh mục</span>
         </a>
         <div id="categoryCollapse" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
@@ -122,23 +122,23 @@
     </li> -->
 
     <!-- Reviews -->
-    <li class="nav-item">
+    <!-- <li class="nav-item">
         <a class="nav-link" href="{{route('review.index')}}">
             <i class="fas fa-comments"></i>
             <span>Reviews</span></a>
     </li>
-    
+     -->
 
     <!-- Divider -->
     <hr class="sidebar-divider">
 
     <!-- Heading -->
-    <div class="sidebar-heading">
+    <!-- <div class="sidebar-heading">
       Bài đăng
     </div>
 
-    <!-- Posts -->
-    <li class="nav-item">
+    <! Posts -->
+    <!-- <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#postCollapse" aria-expanded="true" aria-controls="postCollapse">
         <i class="fas fa-fw fa-folder"></i>
         <span>Posts</span>
@@ -150,9 +150,9 @@
           <a class="collapse-item" href="{{route('post.create')}}">Thêm bài đăng</a>
         </div>
       </div>
-    </li>
+    </li> --> 
 
-     <!-- Category -->
+     <!-- Category
      <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#postCategoryCollapse" aria-expanded="true" aria-controls="postCategoryCollapse">
           <i class="fas fa-sitemap fa-folder"></i>
@@ -165,10 +165,10 @@
             <a class="collapse-item" href="{{route('post-category.create')}}">Thêm danh mục</a>
           </div>
         </div>
-      </li>
+      </li> -->
 
       <!-- Tags -->
-    <li class="nav-item">
+    <!-- <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#tagCollapse" aria-expanded="true" aria-controls="tagCollapse">
             <i class="fas fa-tags fa-folder"></i>
             <span>Tags</span>
@@ -180,15 +180,15 @@
             <a class="collapse-item" href="{{route('post-tag.create')}}">Thêm thẻ mới</a>
             </div>
         </div>
-    </li>
+    </li> -->
 
       <!-- Comments -->
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="{{route('comment.index')}}">
             <i class="fas fa-comments fa-chart-area"></i>
             <span>Bình luận</span>
         </a>
-      </li>
+      </li> -->
 
 
     <!-- Divider -->

@@ -462,7 +462,7 @@ big {
 ===============================*/
 
 /* Preloader Animaion */
-.cp-preloader {
+/* .cp-preloader {
 	position:fixed;
 	top:0;
 	left:0;
@@ -482,7 +482,7 @@ big {
 	--uiPreloaderColor: var(--cpPreloaderColor, #fff);
 	color:#fff;
 	color:var(--uiPreloaderColor)
-}
+} */
 .cp-preloader__box {
 	position:relative
 }

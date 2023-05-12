@@ -120,7 +120,7 @@ class OrderController extends Controller
         Cart::where('user_id', auth()->user()->id)->where('order_id', null)->update(['order_id' => $order->id]);
 
         // dd($users);        
-        request()->session()->flash('success','Your product successfully placed in order');
+        request()->session()->flash('success','Đặt hàng thành công!');
         return redirect()->route('home');
     }
 
@@ -174,10 +174,10 @@ class OrderController extends Controller
         }
         $status=$order->fill($data)->save();
         if($status){
-            request()->session()->flash('success','Successfully updated order');
+            request()->session()->flash('success','Cập nhật đơn hàng thành công!');
         }
         else{
-            request()->session()->flash('error','Error while updating order');
+            request()->session()->flash('error','Lỗi!');
         }
         return redirect()->route('order.index');
     }
@@ -194,7 +194,7 @@ class OrderController extends Controller
         if($order){
             $status=$order->delete();
             if($status){
-                request()->session()->flash('success','Order Successfully deleted');
+                request()->session()->flash('success','Xóa đơn hàng thành công!');
             }
             else{
                 request()->session()->flash('error','Order can not deleted');

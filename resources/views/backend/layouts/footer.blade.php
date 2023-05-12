@@ -3,7 +3,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Ecommerce System 2021. All Right Reserved.</span>
+            <span>Copyright by HoaiNhi &copy;.</span>
           </div>
         </div>
       </footer>

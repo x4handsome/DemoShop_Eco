@@ -129,7 +129,7 @@ Version:1.0
 	background:#FF1D38;
 }
 /* Preloader */
-.preloader {
+/* .preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -138,7 +138,7 @@ Version:1.0
   height: 100%;
   background-color: #fff;
   overflow: hidden;
-}
+} */
 .preloader-inner {
   position: absolute;
   top: 50%;

@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','E-SHOP || PRODUCT PAGE')
+@section('title','DemoShop || PRODUCT PAGE')
 
 @section('main-content')
 	
@@ -219,7 +219,7 @@
 														{{-- <p>{!! html_entity_decode($product->summary) !!}</p> --}}
 														</div>
 														<p class="des pt-2">{!! html_entity_decode($product->summary) !!}</p>
-														<a href="javascript:void(0)" class="btn cart" data-id="{{$product->id}}">Buy Now!</a>
+														<a href="javascript:void(0)" class="btn cart" data-id="{{$product->id}}">Mua Ngay!</a>
 													</div>
 												</div>
 											</div>
